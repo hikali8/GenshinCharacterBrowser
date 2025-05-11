@@ -1,4 +1,4 @@
-﻿<Window x:Class="GenshinCharacterBrowser.Views.MainWindow"
+<Window x:Class="GenshinCharacterBrowser.Views.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
@@ -39,7 +39,7 @@
     </Window.Resources>
     <i:Interaction.Triggers>
         <i:EventTrigger EventName="Loaded">
-            <i:InvokeCommandAction Command="{Binding LoadCityCommand}" CommandParameter="150" />
+            <i:InvokeCommandAction Command="{Binding LoadCityCommand}" CommandParameter="727" />
         </i:EventTrigger>
     </i:Interaction.Triggers>
     <Grid>
@@ -272,11 +272,12 @@
             <RadioButton Content="蒙德城"
                          IsChecked="True"
                          Command="{Binding LoadCityCommand}"
-                         CommandParameter="150" />
-            <RadioButton Content="璃月港" Command="{Binding LoadCityCommand}" CommandParameter="151" />
-            <RadioButton Content="稻妻城" Command="{Binding LoadCityCommand}" CommandParameter="324" />
-            <RadioButton Content="须弥城" Command="{Binding LoadCityCommand}" CommandParameter="350" />
-            <RadioButton Content="枫丹廷" Command="{Binding LoadCityCommand}" CommandParameter="358" />
+                         CommandParameter="727" />
+            <RadioButton Content="璃月港" Command="{Binding LoadCityCommand}" CommandParameter="728" />
+            <RadioButton Content="稻妻城" Command="{Binding LoadCityCommand}" CommandParameter="729" />
+            <RadioButton Content="须弥城" Command="{Binding LoadCityCommand}" CommandParameter="730" />
+            <RadioButton Content="枫丹廷" Command="{Binding LoadCityCommand}" CommandParameter="731" />
+            <RadioButton Content="纳塔" Command="{Binding LoadCityCommand}" CommandParameter="936" />
             <RadioButton Content="敬请期待" IsEnabled="False" />
         </StackPanel>
 
