@@ -6,6 +6,8 @@
 
 ![Ganyu](demo/ganyu.jpg)
 
+While I renewaled the methods so now it can display Natlan version (by: hikali8)
+
 ## Dependencies
 
 * CommunityToolkit.Mvvm
