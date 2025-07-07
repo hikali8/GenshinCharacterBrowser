@@ -17,6 +17,3 @@ Anyway I renewaled the methods so now it can display Natlan version (by: hikali8
 * Newtonsoft.Json
 
 .NET工具集
-
-
-收集这些对照样本并学习，从翻译学的角度探查编程语言的文化差异与细节偏好。毕竟，从零开始是仅存在于理想当中的
